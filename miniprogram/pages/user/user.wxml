@@ -1,0 +1,20 @@
+<!--pages/user/user.wxml-->
+<view class="container">
+
+<view  class="userinfo">
+    <image class="userinfo-avatar" src="../../images/tubiao.png" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+
+
+  
+    <view>关于我们</view>
+    <view>黄思齐  赵玉桐  楼姝  宋昕格</view>
+    <view>联系方式：zyt010208@icloud.com</view>
+
+  
+
+  <view class="footer">
+ Life is fantastic!
+  </view>
+</view>

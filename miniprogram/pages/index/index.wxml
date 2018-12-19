@@ -1,0 +1,23 @@
+<form bindsubmit='res'>
+<view class="Txing">
+  <text>【注】要看好自己的一卡通呢</text>
+  <text>【意】捡到一卡通要及时发布哟</text>
+  <text>【啦】不要着急~乐于助人的小同学正在赶来~ </text>
+</view>
+
+
+<view class='container'>登记
+<input maxlength="10" name='StudentNumber' placeholder="请输入学号"
+placeholder-style="font-size:15px; color:#bfbfbf;" 
+style="font-weight:normal; font-size:15px; color:#000000; padding-left: 30rpx" />
+
+
+<input maxlength="11" name='TelNumber' placeholder="请输入手机号"
+placeholder-style="font-size:15px; color:#bfbfbf;" 
+style="font-weight:normal; font-size:15px; color:#000000; padding-left: 30rpx" />
+
+
+<button form-type='submit' class='btn1'>提交</button></view>
+
+
+</form>

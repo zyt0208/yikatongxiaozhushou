@@ -1,0 +1,17 @@
+<form bindsubmit='res'>
+
+<view class='container'>查询
+<input maxlength="10" name="StudentNumber" placeholder="请输入学号" 
+placeholder-style="font-size:15px; color:#bfbfbf;" 
+style="font-weight:normal; font-size:15px; color:#000000; padding-left: 30rpx" />
+
+
+<view><button form-type='submit' class='btn1'>提交</button></view>
+</view>
+
+
+<view>搜索结果:</view>
+<text class="code" wx:if="{{queryResult}}">{{queryResult}}</text>
+
+
+</form>

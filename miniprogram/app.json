@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index3/index3",
+    "pages/index/index",
+    "pages/index2/index2",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "一卡通小助手",
+    "navigationBarTextStyle": "black"
+ },
+
+"tabBar": {
+  "color": "#b7b7b7",
+  "selectedColor": "#00AC2C",
+  "borderStyle": "white",
+  "backgroundColor": "#f5f5f5",
+  "list": [
+    {
+      "pagePath": "pages/index3/index3",
+      "iconPath": "images/h4.png",
+      "selectedIconPath": "images/h6.png",
+      "text": "用户界面"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/h11.png",
+      "selectedIconPath": "images/h13.png",
+      "text": "我捡到卡啦"
+    },
+   
+    {
+      "pagePath": "pages/index2/index2",
+      "iconPath": "images/h44.png",
+      "selectedIconPath": "images/h43.png",
+      "text": "我丢掉卡了"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "iconPath": "images/12.png",
+      "selectedIconPath": "images/11.png",
+      "text": "关于我们"
+    }
+
+
+  ]
+},
+"networkTimeout": {
+  "request": 10000
+}
+}
